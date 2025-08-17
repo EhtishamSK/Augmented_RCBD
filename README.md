@@ -49,6 +49,8 @@ The script generates:
 - Optional **frequency distributions and descriptive statistics**.
 - Outputs are saved as Word documents (`.docx`) for reporting.
 
+> **Note** See a sample analysis and it's application [here](https://journals.ashs.org/view/journals/hortsci/57/12/article-p1507.xml)
+
 ---
 
 ## Citation
