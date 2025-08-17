@@ -1,6 +1,17 @@
-# Augmented RCBD Codes in R
-# FINAL CODES FOR UNBALANCED DESIGN
-# Crt+shift A = To arrange 
+###########################################################################
+# Title       : Augmented RCBD Codes in R 
+# Author      : Ehtisham Khokhar
+# University  : New Mexico State University
+# Email       : ehtishamshakeel@gmail.com 
+# Purpose     : Perform ANOVA and GVA for augmented randomized complete
+#               block designs (unbalanced), and generate summary reports
+#
+# Citation    : Aravind, J., Mukesh Sankar, S., Wankhede, D. P., and Kaur, V.
+#               augmentedRCBD: Analysis of Augmented Randomised Complete Block
+#               Designs. R package version 0.1.7.9000,
+#               https://aravind-j.github.io/augmentedRCBD/
+#               https://cran.r-project.org/package=augmentedRCBD
+###########################################################################
 
 install.packages("shiny")
 install.packages("flextable")
@@ -48,7 +59,3 @@ aug_anova <-
 
 
 report.augmentedRCBD.bulk(aug_anova, file.path("C:/Users/ehtis/OneDrive - New Mexico State University/SUNNY/Research Projects/Mechanical Harvest Paper/Phenotype manuscript/anova", "Anova_new.docx"))
-
-
-
-
